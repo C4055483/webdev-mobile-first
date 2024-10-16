@@ -73,4 +73,11 @@ th {
 tr:nth-child(odd) {
   background-color: #ccc;
 }
-/* Form Styling Needs Adding */
+
+.burger {
+  display: none;
+}
+
+nav {
+    overflow: auto; 
+  }
