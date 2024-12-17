@@ -6,7 +6,6 @@
     
 }
 
-
 h1,
 h2 {
     font-family: "Figtree";
@@ -54,6 +53,7 @@ nav{
     display:flex;
     align-items: center;
 }
+
 nav ul {
      
     list-style: none;  
@@ -79,11 +79,11 @@ nav ul li a {
     width: 100%;
     font-size: 15px;
     text-align: left;
-    }
+}
 
-    nav ul li:last-child a {
+nav ul li:last-child a {
       border-right: none;
-  }
+}
   
 nav li a:hover { 
   color: #f4bd33; / 
@@ -102,9 +102,9 @@ section {
     height: 70vh; 
     text-align: center;  
   
-}
-  
-  section img {  
+} 
+
+section img {  
     width: 100%;  
     max-width: 100%;
     height: auto; 
@@ -117,55 +117,54 @@ section h2 {
     color: #f4bd33;
     
   }
-  section h3 {
+section h3 {
     font-size: 70px; 
     margin: 10px 0;  
-    color: #f4bd33;
-    
-  }
+    color: #f4bd33;    
+}
   
-  section p {
+section p {
     font-size: 15px; 
     margin: 10px; 
     max-width: 1200px; 
-  }
+}
 
 
-  .about-section{
+.about-section{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     gap: 20px;
-  }
+}
   
-  .about-section p{
+.about-section p{
     color:rgba(255, 255, 255, 0.95);
     padding: 10px;
     width: 100%;
     margin: 20px;
-  }
+}
   
-  .about-section img{
+.about-section img{
     max-width: 100%;  
     height: auto; 
     margin: 20px;
     border-radius: 5px;
-  }
+}
 
-  .about-section iframe{
+.about-section iframe{
     max-width: 100%;
     height: auto;
     margin: 20px;
     border-radius: 5px;
-  }
+}
 
 .button-container {
     display: flex;
     justify-content: center;  
     align-items: center;  
     height: 50vh;  
-  }
+}
 
 .button {
     display: flex;
@@ -190,12 +189,12 @@ section h2 {
     cursor: pointer;
     color: #f4bd33;
 }
+
 .button:hover{
     background-image: url(/images/Computing-Room.jpg);
     background-color: rgba(76, 57, 42, 0.9);
     background-blend-mode: overlay;
     color: #fff;
-
 }
 
 .button:active{
@@ -210,13 +209,13 @@ section h2 {
     align-items: center;
     padding: 0 100px;
 }
+
 .button__image{
     display: inline-flex;
     align-items: center;
     padding: 0 24x;
     color: white;
-    height: 100%
-    
+    height: 100%    
 }
 
 input[type="text"],  
@@ -234,6 +233,7 @@ input[type="submit"] {
   width: 100%;
   padding: 15px;
 }
+
 #copyright {
   text-align: center;
   width: 100%
@@ -287,7 +287,6 @@ footer {
   text-decoration: none; 
 }
 
-
 .address {
   
   line-height: 1.5; 
@@ -297,6 +296,7 @@ footer {
   color: #f4bd33; 
   font-weight: bold; 
 }
+
 .contact {
   line-height: 1.5; 
 }
@@ -316,15 +316,17 @@ footer {
   color: #F8F5F0;
   text-decoration: none;
 }
+
 .follow-us::first-line {
   color: #f4bd33; 
   font-weight: bold; 
 }
-  .follow-us{
-  line-height: 1.5;
-  }
 
-  .follow-us a {
+.follow-us{
+  line-height: 1.5;
+}
+
+.follow-us a {
   color: #F8F5F0; 
   text-decoration: none;
   margin-bottom: 5px;

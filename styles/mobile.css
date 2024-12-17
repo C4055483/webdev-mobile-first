@@ -1,12 +1,10 @@
+
 @import url(https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap);
-/* Import the Figtree font */
 
 html, body {
   font-family: 'Figtree', sans-serif;
     color: #F8F5F0;
 }
-
-
 
 h1,
 h2 {
@@ -46,8 +44,6 @@ text-decoration: underline;
   text-align: center; 
 }
 
-
-
 nav ul {
   list-style: none; 
   margin: 0;
@@ -71,7 +67,7 @@ nav ul li a {
   display: inline-block;
   width: 100%;
   text-align: center;
-  }
+}
 
 nav li a:hover { 
 color: #f4bd33; 
@@ -89,7 +85,6 @@ section {
   align-items: center;  
   height: 20vh; 
   text-align: center;  
-
 }
 
 section img {
@@ -103,13 +98,12 @@ section h2 {
   font-size: 25px;  
   margin: 10px 0;  
   color: #f4bd33;
-  
 }
+
 section h3 {
   font-size: 40px;  
   margin: 10px 0;  
   color: #f4bd33;
-  
 }
 
 section p {
@@ -148,7 +142,6 @@ section p {
   cursor: pointer;
   color: #F8F5F0;
 }
-
 
 .findus-container{
   display: flex;
@@ -257,7 +250,6 @@ input{
   font-weight: bold;
 }
 
-
 .card> .body {
   font-size: .8rem;
   column-count: #777;
@@ -299,6 +291,12 @@ input{
   color: #F8F5F0;
 }
 
+.contact-us{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
 
 .contact-us label {
   display: block;  
@@ -369,7 +367,6 @@ input{
   color: #F8F5F0;
 }
 
-
 .about-content ul li a {
   text-decoration: none;  
   color: #F8F5F0;  
@@ -379,7 +376,7 @@ input{
 .about-content ul {
   list-style-type: none;  
 }
- 
+
 .about-section{
   flex-direction: column;
   gap: 10px;
@@ -470,11 +467,8 @@ input{
   background-color: #4c3a2a;  
   color: #F8F5F0;  
   padding: 20px;  
-  
-  
 }
 
- 
 .bottombar > div {
   flex: none;  
   width: 100%;
@@ -529,6 +523,10 @@ input{
   font-weight: bold;  
 }
 
+.follow-us{
+  line-height: 1.5rem;
+}
+
  .follow-us a {
   color: #F8F5F0;  
   text-decoration: none;
@@ -539,9 +537,6 @@ footer {
   width: 100%;
   max-width: none;
 }
-
-
-
 
 #copyright {
   text-align: center;
